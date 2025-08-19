@@ -1,6 +1,6 @@
 def fizzbuzz(n:int):
     if n < 1:
-        return
+        raise ValueError("Invalid number")
     
     for i in range(n+1):
         if i % 5 == 0 and i % 3 == 0 :
@@ -15,9 +15,6 @@ def fizzbuzz(n:int):
 def main():
     print("Welcome to FizzBuzz")
     value:int = int(input("Enter a number: "))
-
-    if value <= 0:
-        return
     
     fizzbuzz(value)
 
