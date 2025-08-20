@@ -1,4 +1,3 @@
-
 const readline = require("readline")
 
 const r1 = readline.createInterface({
@@ -26,12 +25,18 @@ function fizzbuzz(value){
     }
 }
 
+function input(question){
+    return new Promise(resolve => r1.question(question, answer => {
+        r1.close()
+        resolve(answer)
+    }))
+}
 
-function main(){
+
+async function main(){
     console.log("Welcome to Fizzbuzz")
-    r1.question("Enter a value: ", (value) => {
-        fizzbuzz(value)
-    })
+    const value = await input("Enter a value: ")
+    fizzbuzz(value)
 }
 
 main()
