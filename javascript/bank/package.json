@@ -2,12 +2,16 @@
   "name": "bank",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"node bank.js"
+    "dev": "node bank.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "tinyinput": "^0.0.1"
+  }
 }
