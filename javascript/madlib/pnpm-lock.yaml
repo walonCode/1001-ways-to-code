@@ -1,0 +1,22 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      tinyinput:
+        specifier: ^0.0.1
+        version: 0.0.1
+
+packages:
+
+  tinyinput@0.0.1:
+    resolution: {integrity: sha512-98cYW497yT9WgPfJvLctSeoEFpdYH9hS17ebOFiSm2sD3qX4xH0OWH+UDyY88mHd0ccuIsuGXIyXv9RC+ShLcw==}
+
+snapshots:
+
+  tinyinput@0.0.1: {}
