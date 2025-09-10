@@ -1,0 +1,16 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "A directory that has small function implemented in typescript.",
+  "scripts": {
+    "fibo" : "ts-node src/fibonacci.ts"
+  },
+  "keywords": ["1001-ways-to-code", "typescript"],
+  "author": "walonCode",
+  "license": "MIT",
+  "packageManager": "pnpm@10.15.0",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "ts-node": "^10.9.2"
+  }
+}
