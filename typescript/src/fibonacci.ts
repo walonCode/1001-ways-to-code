@@ -1,8 +1,8 @@
-function fibo(n:number):number{
+export function fibo(n:number):number{
     if(n==1 || n === 0){
         return n
     }
-    return n * fibo(n-1)
+    return  fibo(n-1) +  fibo(n-2)
 }
 
 function main(){
