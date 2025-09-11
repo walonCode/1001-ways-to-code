@@ -3,14 +3,26 @@
   "version": "1.0.0",
   "description": "A directory that has small function implemented in typescript.",
   "scripts": {
-    "fibo" : "ts-node src/fibonacci.ts"
+    "test":"vitest",
+    "fibo": "ts-node src/fibonacci.ts",
+    "fact": "ts-node src/factorial.ts",
+    "word_count": "ts-node src/word_count.ts",
+    "reverse_list": "ts-node src/reverse_list.ts",
+    "reverse_num": "ts-node src/reverse_num.ts",
+    "simple_interest": "ts-node src/simpleInterest.ts",
+    "sum_of_odd":"ts-node src/sum_of_odd.ts",
+    "sum_of_even" : "ts-node src/sum_of_even.ts"
   },
-  "keywords": ["1001-ways-to-code", "typescript"],
+  "keywords": [
+    "1001-ways-to-code",
+    "typescript"
+  ],
   "author": "walonCode",
   "license": "MIT",
   "packageManager": "pnpm@10.15.0",
   "devDependencies": {
     "@types/node": "^24.3.1",
-    "ts-node": "^10.9.2"
+    "ts-node": "^10.9.2",
+    "vitest": "^3.2.4"
   }
 }
